@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Automation_Suite">
-  <test thread-count="5" name="Functionality_Test">
+<suite name="Suite1">
+  <test thread-count="5" name="Test_fuctionality">
     <classes>
       <class name="package_1.NewTest_class"/>
     </classes>
-  </test> <!-- Functionality_Test -->
-</suite> <!-- Automation_Suite -->
+  </test> <!-- Test_fuctionality -->
+</suite> <!-- Suite1 -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite4]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test4(failed)">
+    <classes>
+      <class name="package_1.automate_webapplication">
+        <methods>
+          <include name="refresh"/>
+          <include name="back"/>
+          <include name="close"/>
+          <include name="url"/>
+          <include name="searchbox"/>
+          <include name="launch_browser"/>
+        </methods>
+      </class> <!-- package_1.automate_webapplication -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [Suite4] -->

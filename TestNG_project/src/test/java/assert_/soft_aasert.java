@@ -1,6 +1,7 @@
 package assert_;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -40,6 +41,21 @@ public class soft_aasert extends Stoared_code{
 	  
 	  System.out.println("enterd search term is:"+actual_search);
 	  as.assertAll();
+	  
+	  
   }
 
+  @Test
+  public void searchbox1() {
+	  WebElement searchbox1 = driver.findElement(By.xpath("//input[@id='searchInputBox']"));
+	  System.out.println(searchbox1.getSize());
+	  
+	  String expected_search1 = "(225, 18)";
+	 Dimension actual_search1 =searchbox1.getSize();
+	 SoftAssert as = new SoftAssert();
+	 as.assertEquals(expected_search1, expected_search1);
+	 
+	 System.out.println("the size of search box is :"+actual_search1);
+	 
+}
 }

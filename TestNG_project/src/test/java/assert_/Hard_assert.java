@@ -26,8 +26,7 @@ public class Hard_assert extends Stoared_code{
   }
   
   @Test
-  public void element() {
-		  
+  public void element() {		  
 	 WebElement login = driver.findElement(By.xpath("//a[text()=\" LOGIN \"]"));
 	login.click();
 	WebElement username = driver.findElement(By.xpath("//input[@placeholder='User Name']"));

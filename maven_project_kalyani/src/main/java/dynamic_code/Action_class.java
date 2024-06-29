@@ -60,10 +60,10 @@ public class Action_class {
 	}
 	
 	public static void keysdown() {
-		ac.keyDown(Keys.PAGE_UP).perform();
+//		ac.keyDown(Keys.PAGE_UP).perform();
 	}
 	
 	public static void keysdown2() {
-		ac.keyDown(Keys.PAGE_DOWN).perform();
+//		ac.keyDown(Keys.PAGE_DOWN).perform();
 	}
 }

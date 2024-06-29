@@ -17,7 +17,7 @@ public class Javascriptexecuter extends Stoared_code{
      takesscreenshot_way2("homepage");
      
       JavascriptExecutor js = (JavascriptExecutor) driver;
-      js.executeScript("window.scrollBy(0,3000) ");
+      js.executeScript("window.scrollBy(0,3000)");
       takesscreenshot_way1("scroll");
       Thread.sleep(2000);
            

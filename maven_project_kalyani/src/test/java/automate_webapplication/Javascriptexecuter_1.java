@@ -8,7 +8,7 @@ public class Javascriptexecuter_1 extends Javascriptexecutor{
 		launch_browser("chrome");
 		hiturl("https://www.jeevansathi.com/");
 		Thread.sleep(1000);
-		scroll(0, 2500);
+		scroll(0, 2000);
 //		Thread.sleep(1000);
 //		scrollheight();
 //		Thread.sleep(1000);

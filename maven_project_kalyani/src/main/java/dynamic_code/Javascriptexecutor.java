@@ -41,7 +41,7 @@ public static void launch_browser(String browser) {
 	
 	public static void scroll(int value1 ,int value2) {
 		js = (JavascriptExecutor) driver;				
-		js.executeScript("window.scrollBy"+(value1 +","+value2));
+		js.executeScript("window.scrollBy("+value1+","+value2+")");
 	}
 	
 	public static void scrollheight() {
